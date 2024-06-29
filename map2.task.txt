@@ -1,0 +1,11 @@
+import 'dart:io';
+oid main(){
+
+  print('enter a number');
+  int num = int.parse(stdin.readLineSync()!);
+
+   Map<String,String>student={
+    "Gmail":"sapnafazal@123",
+    "password":"sapna123",
+  };
+}

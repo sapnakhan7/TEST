@@ -1,0 +1,13 @@
+void main() {
+  int a = 5;
+  int b = 10;
+
+  print("Before swapping: a = $a, b = $b");
+
+  // Swap without third variable using multiplication
+  a = a * b; // Store the product of both variables in 'a'
+  b = a ~/ b; // Divide 'a' by 'b' and store the quotient in 'b'
+  a = a ~/ b; // Divide the updated 'a' by the new 'b' to get the original 'a'
+
+  print("After swapping: a = $a, b = $b");
+}
